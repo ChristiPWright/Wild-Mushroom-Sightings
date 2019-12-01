@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In an effort to track the fungi biodiversity and natural habitats it supports, this app creates a platform to for hikers to log sightings of local fungi and mycologists to use the date to create natual solutions to real world problems. This is a Ruby on Rails backend and React frontend app.
 
-Things you may want to cover:
+Story: As the consumer of the API I can create an mushroom and save it in the database. An mushroom has the following information: common name, species,genus).
 
-* Ruby version
+Story: As the consumer of the API I can list all mushrooms in a database.
 
-* System dependencies
+Story: As the consumer of the API I can update an mushroom in the database.
 
-* Configuration
+Story: As the consumer of the API I can destroy a mushroom in the database.
 
-* Database creation
+Story: As the consumer of the API I can create a sighting of an mushroom with date (use the datetime datatype), latitude and longitude.
 
-* Database initialization
+Hint: An mushroom has_many sightings.
 
-* How to run the test suite
+Story: As the consumer of the API I can update an mushroom sighting in the database.
 
-* Services (job queues, cache servers, search engines, etc.)
+Story: As the consumer of the API I can destroy an mushroom sighting in the database.
 
-* Deployment instructions
-
-* ...
+Story: As the consumer of the API, when I view a specific mushroom, I can also see a list sightings of that mushroom.

@@ -6,7 +6,8 @@ class MushroomsController < ApplicationController
     
     def show
         @mushroom = Mushroom.find([params[:id]])
-        render json: @mushroom
+        render json: @mushroom, include: :sightings 
+        
     end
     
     def create 
